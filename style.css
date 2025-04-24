@@ -1,64 +1,77 @@
 
-    body {
-      font-family: Arial, sans-serif;
-      padding: 30px;
-      background-color: #CDE5A8;
-     
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px #feffff60;
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 30px;
-      display:flex;
-      align-items: center;
-      justify-content: center;
-      color: #4C4D4F;
-      gap: 10px;
 
 
-    }
+@import url('https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-   
 
-    .icone {
-      width: 40px;
-      height: 40px;
-    }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      border: 5px;
-     
-    }
+body {
+  font-family: "National Park", sans-serif;
+  padding: 20px;
+  background-color: #CDE5A8;
+ 
+}
 
+.container {
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #feffff60;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #4C4D4F;
+  gap: 10px;
   
 
-    
+}
 
-    th, td {
-      border: 1px solid #ccc;
-      padding: 10px 10px;
-      text-align: left;
-    }
 
-    th {
-      font-size: 30px;
-      background-color: #14639D;
-      
-    }
 
-   
+.icone {
+  width: 30px;
+  height: 30px;
+  
+}
 
-    tbody tr:nth-child(odd) {
-      background-color: #f5f5f5;
-    }
+table {
+  font-family: Arial, Helvetica, sans-serif;
+ width: 100%;
+  border-collapse: collapse;
+
+ 
+}
+
+
+
+
+th, td {
+  border: 1px solid, #7c929288;
+  padding: 10px 10px;
+  text-align: left;
+  font-size: 15px;
+ 
+}
+
+th {
+  font-size: 20px;
+  background-color: #14639D;
+  color: white;
+  
+  
+}
+
+
+tbody tr:nth-child(odd) {
+  background-color: #f5f5f5;
+
+
+}
