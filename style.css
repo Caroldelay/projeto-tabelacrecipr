@@ -9,7 +9,7 @@ body {
   font-family: "National Park", sans-serif;
   padding: 20px;
   background-color: #CDE5A8;
- 
+  
 }
 
 .container {
@@ -54,7 +54,7 @@ table {
 
 
 th, td {
-  border: 1px solid, #7c929288;
+  border: 1px solid #7c929288;
   padding: 10px 10px;
   text-align: left;
   font-size: 15px;
