@@ -25,6 +25,7 @@ body {
 
 .container {
   box-sizing: border-box;
+  overflow: auto; /*adicionado para ajustar a borda para celular*/
 }
 
 h1 {
@@ -51,7 +52,7 @@ table {
   font-family: Arial, Helvetica, sans-serif;
  width: 100%;
   border-collapse: collapse;
-
+  table-layout: fixed; /*evita quebra nas colunas*/
  
 }
 
@@ -60,6 +61,7 @@ table {
 
 th, td {
   border: 1px solid #7c929288;
+  word-wrap: break-word; /*para ajustar a tela em celular*/
   padding: 10px 10px;
   text-align: left;
   font-size: 15px;
